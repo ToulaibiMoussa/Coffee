@@ -10,13 +10,13 @@
 
     <body>
         <header class="p-3 px-5 shadow-2xs md:relative md:bg-amber-50">
-            <nav class="flex justify-between md:justify-between mr-3 md:w-[80%]">
+            <nav class="flex justify-between items-center  md:w-[80%]">
                 <div class="clamp font-bold text-amber-900">
                     DrinkCoffee
                 </div>
                 <div class="md:static md:shadow-none hidden shadow-lg absolute top-0 right-0 py-20 md:py-0 z-[1] px-auto px-7 h-screen md:h-auto md:flex
-                md:justify-between items-center bg-amber-50 md:bg-transparent" id="navbar">
-                    <ul class="flex flex-col md:flex-row md:mr-20
+                md:justify-between items-center backdrop-blur-[6px] md:backdrop-blur-none md:bg-transparent" id="navbar">
+                    <ul class="flex flex-col md:flex-row md:mr-10
                      items-start gap-4 font-semibold">
                         <li><a href="#" class="hover:text-amber-900">Acceuil</a></li>
                         <li><a href="#" class="hover:text-amber-900">Menu</a></li>
@@ -24,7 +24,7 @@
                         <li><a href="#" class="hover:text-amber-900">Contact</a></li>
                         <li><a href="#" class="hover:text-amber-900">A Propos</a></li>
                     </ul>
-                    <div class="mt-5 md:absolute right-9 bottom-3">
+                    <div class="mt-5 md:hidden">
                         <button class="bg-amber-900 px-4 py-1.5 rounded-2xl text-amber-50">
                             Connexion
                         </button>
@@ -32,6 +32,14 @@
                             Inscription
                         </button>
                     </div>
+                </div>
+                <div class="md:absolute right-4 hidden md:block">
+                    <button class="bg-amber-900 px-4 py-1.5 rounded-2xl text-amber-50">
+                        Connexion
+                    </button>
+                    <button class="bg-amber-900 px-4 py-1.5 rounded-2xl text-amber-50">
+                        Inscription
+                    </button>
                 </div>
                 <button class="block z-[1] md:hidden cursor-pointer" id="btnToggle">
                     <span class="h-1.5 w-9 bg-amber-900 block mb-1 rounded-4xl"></span>
@@ -58,9 +66,13 @@
                             En savoir plus
                         </button>
                     </div>
-                    <img src="../Images/télécharger__13_-removebg-preview.png" class="w-[30%] absolute right-2.5 top-10 -z-10 opacity-50" >
-                    <img src="../Images/télécharger__13_-removebg-preview.png" class="w-[30%] absolute left-2.5 top-10 -z-10 opacity-50" >
+                    <img src="../Images/télécharger__13_-removebg-preview.png" class="w-[30%] absolute right-2.5 top-10 md:top-0 -z-10 opacity-50" >
+                    <img src="../Images/télécharger__13_-removebg-preview.png" class="w-[30%] absolute left-2.5 top-10 md:top-0 -z-10 opacity-50" >
                 </div>
+            </section>
+
+            <section>
+                <h2>Nos Cafés</h2>
             </section>
         </main>
         <script src="../script.js"></script>
