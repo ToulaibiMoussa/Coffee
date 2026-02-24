@@ -6,7 +6,7 @@ export function initSwiper() {
         speed: 900,
         grabCursor: true,
         autoplay: true,
-        allowTouchMove: false,
+        allowTouchMove: true,
         effect: "coverflow",
     
         coverflowEffect: {
