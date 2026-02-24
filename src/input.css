@@ -8,16 +8,37 @@
     h1 {
         @apply text-3xl font-bold;
     }
+
+    h2 {
+        @apply text-2xl font-bold;
+    }
+}
+
+@layer components {
+
+    .card {
+        @apply relative rounded-4xl shadow-2xl p-4
+    }
+
+    .card img {
+        @apply rounded-4xl 
+    }
+
+    .card div {
+        @apply p-4 
+    }
+
+
+    .head-btn {
+        @apply py-2 px-6 m-2 hover:scale-110 cursor-pointer
+        hover:shadow-2xs duration-200 rounded-2xl font-semibold
+    }
+
 }
 
 @layer utilities {
     .flex-center {
         @apply justify-between items-center;
-    }
-
-    .head-btn {
-        @apply py-2 px-6 m-2 hover:scale-110 cursor-pointer
-        hover:shadow-2xs duration-200 rounded-2xl font-semibold
     }
 
     .text-fluid-sm {
