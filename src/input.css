@@ -1,12 +1,6 @@
 @import "tailwindcss";
 
-.clamp {
-    font-size: clamp(1.2rem, 3vw, 1.6rem)
-}
 
-.ombre {
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
-}
 
 @layer base {
     h1 {
@@ -47,5 +41,13 @@
 
     .text-fluid-sm {
         font-size: clamp(1rem, 2vw, 1.15rem);
+    }
+
+    .clamp {
+    font-size: clamp(1.2rem, 3vw, 1.6rem)
+    }
+
+    .ombre {
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
     }
 }

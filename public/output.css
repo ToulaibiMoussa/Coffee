@@ -267,9 +267,6 @@
   .h-screen {
     height: 100vh;
   }
-  .w-1\/2 {
-    width: calc(1 / 2 * 100%);
-  }
   .w-9 {
     width: calc(var(--spacing) * 9);
   }
@@ -503,6 +500,11 @@
       padding-block: calc(var(--spacing) * 0);
     }
   }
+  .md\:text-\[16px\] {
+    @media (width >= 48rem) {
+      font-size: 16px;
+    }
+  }
   .md\:shadow-none {
     @media (width >= 48rem) {
       --tw-shadow: 0 0 #0000;
@@ -516,12 +518,6 @@
       backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     }
   }
-}
-.clamp {
-  font-size: clamp(1.2rem, 3vw, 1.6rem);
-}
-.ombre {
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
 }
 @layer base {
   h1 {
@@ -587,6 +583,12 @@
   }
   .text-fluid-sm {
     font-size: clamp(1rem, 2vw, 1.15rem);
+  }
+  .clamp {
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+  }
+  .ombre {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
   }
 }
 @property --tw-font-weight {
