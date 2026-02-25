@@ -10,7 +10,7 @@ export function initSwiper() {
         effect: "coverflow",
     
         coverflowEffect: {
-            rotate: -10,
+            rotate: -45,
             stretch: -45,
             depth: 90,
             modifier: 1,
@@ -28,7 +28,6 @@ export function initSwiper() {
         breakpoints: {
         0: {
             slidesPerView: 1,
-            spaceBetween: 20,
         },
         600: {
             slidesPerView: 3,

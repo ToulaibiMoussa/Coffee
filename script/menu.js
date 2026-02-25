@@ -1,27 +1,27 @@
 export const listCafe = [
     {
         nom: "Café Noir Corsé",
-        description: "Café noir corsé aux notes de cacao et d'épices, servi dans une ambiance cosy aux lumières tamisées. Parfait pour accompagner une lecture tranquille.",
+        description: "Café noir corsé aux notes de cacao et d'épices, servi dans une ambiance cosy aux lumières tamisées [...].",
         image: "télécharger (22).jpg"
     },
     {
         nom: "Cappuccino Matinal",
-        description: "Cappuccino onctueux avec latte art en feuille, baigné de la première lumière du jour. Une mousse veloutée pour éveiller les sens.",
+        description: "Cappuccino onctueux avec latte art en feuille, baigné de la première lumière du jour. Une mousse veloutée [...].",
         image: "télécharger (21).jpg"
     },
     {
         nom: "Cappuccino Matinal",
-        description: "Café noir sans artifice, puissant et direct. L'essence même du café dans sa forme la plus pure, sur une table en bois brut.",
+        description: "Café noir sans artifice, puissant et direct. L'essence même du café dans sa forme la plus pure, sur [...].",
         image: "cup.jpg"
     },
     {
         nom: "Latte Marbré",
-        description: "Café crémeux doré par les derniers rayons du soleil. Une vapeur délicate s'élève dans une atmosphère feutrée et chaleureuse.",
+        description: "Café crémeux doré par les derniers rayons du soleil. Une vapeur délicate s'élève dans une atmosphère [...].",
         image: "télécharger (20).jpg"
     },
     {
         nom: "Cappuccino Cœur",
-        description: "Latte élégant aux reflets dorés, lait versé en cascade formant des motifs sophistiqués. Une douceur raffinée en tasse transparente.",
+        description: "Latte élégant aux reflets dorés, lait versé en cascade formant des motifs sophistiqués. Une douceur [...].",
         image: "télécharger (19).jpg"
     },
     {
